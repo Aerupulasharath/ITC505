@@ -1,0 +1,122 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #9dbac8;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.full-name {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+.about {
+    margin-top: 20px;
+    color: #fffefe;
+}
+
+.section__title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.section__list-item {
+    margin-bottom: 15px;
+}
+
+.name {
+    font-weight: bold;
+    color: #555;
+}
+
+.desc {
+    color: #0d0000;
+}
+
+.skills__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skills__item .left {
+    flex: 1;
+}
+
+.skills__item .right {
+    flex: 2;
+}
+
+/* Addendum styles */
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 0 0 10px 10px;
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+}
+
+footer ul li b {
+    color: #fff;
+}
+
+/* Checkbox styling */
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+input[type="checkbox"]:checked + label {
+    background-color: #007bff;
+}
