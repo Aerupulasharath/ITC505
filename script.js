@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
   const noteContent = document.getElementById('note-content');
   const notesList = document.getElementById('notes-list');
   
-
   noteForm.addEventListener('submit', function (event) {
     event.preventDefault();
 
