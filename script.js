@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const noteForm = document.getElementById('note-form');
   const noteContent = document.getElementById('note-content');
   const notesList = document.getElementById('notes-list');
+  
 
 
 
