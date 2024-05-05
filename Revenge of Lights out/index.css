@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  grid-template-rows: repeat(5, 50px);
+  margin-bottom: 20px; /* Add some space between the board and footer */
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.is-off {
+  background-color: black;
+}
+
+footer {
+  text-align: center;
+}
+
+.addendum {
+  font-size: 14px; /* Decrease the font size */
+  line-height: 1.5; /* Adjust the line height for readability */
+}
