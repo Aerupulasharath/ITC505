@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revenge of Lights Out</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>Revenge of Lights Out</h1>
+
+  <div class="container" id="board"></div>
+
+  <div class="addendum">
+    <h2>Addendum</h2>
+    <p>
+      In creating the "Revenge of Lights Out" game, I followed a step-by-step process to ensure that the game is functional, visually appealing, and user-friendly. Here's a breakdown of my process and creative choices:
+      <ul>
+        <li><strong>Understanding the Requirements:</strong> I carefully read the requirements provided, which included implementing a Lights Out game using JavaScript, ensuring the game starts with a random but solvable board configuration, and adding a footer with the last modified date.</li>
+        <li><strong>HTML Structure:</strong> I began by creating the basic HTML structure for the game, including the main heading, game board container, and footer.</li>
+        <li><strong>Styling with CSS:</strong> I utilized CSS to style the game board, squares, and footer. I opted for a simple grid layout for the game board and styled the squares to have a clear contrast between on and off states.</li>
+        <li><strong>JavaScript Logic:</strong> I implemented the game logic in JavaScript, including toggling squares on click, checking if the game is solved, and randomizing the initial board configuration. I used event listeners to detect clicks on squares and toggled their classes accordingly.</li>
+        <li><strong>Footer Last Modified Date:</strong> To dynamically display the last modified date in the footer, I used JavaScript to fetch the lastModified property of the document and update the content of the footer accordingly.</li>
+        <li><strong>Testing and Debugging:</strong> I thoroughly tested the game to ensure it behaves as expected. I checked for functionality such as toggling squares, verifying the solvability of the board, and triggering the "You win!" pop-up when the game is solved. I also tested the responsiveness of the layout on different devices.</li>
+     
+      Overall, the process of creating the "Revenge of Lights Out" game allowed me to apply my knowledge of HTML, CSS, and JavaScript while tackling challenges related to game logic, styling, and dynamic content. It reinforced the importance of clear requirements understanding, systematic problem-solving, and creative decision-making in web development projects.
+    </p>
+  </div>
+
+  <footer>
+    <p>Last updated: 
+      <span id="lastModified"></span>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script type="text/javascript">
+    var x = document.lastModified;
+    document.getElementById('lastModified').textContent = x;
+  </script>
+</body>
+</html>
