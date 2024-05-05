@@ -33,3 +33,8 @@ footer {
   font-size: 14px; /* Decrease the font size */
   line-height: 1.5; /* Adjust the line height for readability */
 }
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+}
